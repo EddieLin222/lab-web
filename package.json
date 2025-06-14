@@ -1,0 +1,41 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --watch --host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/types": "^2.17.1",
+    "@nuxt/vue-app": "^2.17.1",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18.17.1",
+    "dayjs-nuxt": "^2.0.5",
+    "nodemon": "^3.0.1",
+    "nuxt": "^3.16.0",
+    "nuxt-anchorscroll": "^1.0.3",
+    "nuxt-lodash": "^2.5.3",
+    "nuxt-quasar-ui": "^2.0.5",
+    "sass": "^1.77.8"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^7.52.2",
+    "@babylonjs/loaders": "^7.12.0",
+    "@nuxt/image": "^1.0.0",
+    "@pinia/nuxt": "^0.4.11",
+    "@quasar/extras": "^1.16.5",
+    "@types/three": "^0.169.0",
+    "@vueuse/nuxt": "^10.3.0",
+    "gsap": "^3.12.5",
+    "jszip": "^3.10.1",
+    "pinia": "^2.1.6",
+    "quasar": "^2.12.3",
+    "remeda": "^1.27.1",
+    "three": "^0.169.0",
+    "vue-router": "^4.5.0"
+  }
+}
